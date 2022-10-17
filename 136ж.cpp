@@ -57,6 +57,7 @@ int main()
 
     //вывод массива в фаил
     otput_file(arr, file_out_name);
+    
 
     cout << endl; // переход на новую строку
 
