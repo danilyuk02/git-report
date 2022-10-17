@@ -75,6 +75,7 @@ int arrays::rowsNumber(std::string name){
     return k;
 }
 
+
 /// Чтение массива из файла строк в файле
 void arrays::getArray(vector_int& v, std::string name, int k){
 if(v.empty()) throw std::invalid_argument("Empty array");
